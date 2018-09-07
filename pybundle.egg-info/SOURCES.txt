@@ -1,0 +1,7 @@
+setup.py
+pybundle/__init__.py
+pybundle/bundle.py
+pybundle.egg-info/PKG-INFO
+pybundle.egg-info/SOURCES.txt
+pybundle.egg-info/dependency_links.txt
+pybundle.egg-info/top_level.txt
