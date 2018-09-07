@@ -1,3 +1,4 @@
+# Set directory paths and file names for executable bundles
 import os
 import sys
 from inspect import stack
