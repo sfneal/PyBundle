@@ -1,6 +1,6 @@
 setup.py
 pybundle/__init__.py
-pybundle/bundle.py
+pybundle/pybundle.py
 pybundle.egg-info/PKG-INFO
 pybundle.egg-info/SOURCES.txt
 pybundle.egg-info/dependency_links.txt
