@@ -5,6 +5,12 @@ from inspect import stack
 
 
 def frozen_bundle():
+    """Legacy wrapper for frozen"""
+    return frozen()
+
+
+def frozen():
+    """Determine if script is running in a frozen environment."""
     if getattr(sys, 'frozen', False):
         # Running in a bundle
         return True
