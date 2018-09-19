@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pybundle',
+    name='PyBundle',
     version='0.1.4',
     packages=find_packages(),
-    url='https://github.com/mrstephenneal/pybundle',
+    url='https://github.com/mrstephenneal/PyBundle',
     license='MIT',
     author='Stephen Neal',
     author_email='stephen@stephenneal.net',
