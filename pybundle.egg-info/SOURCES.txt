@@ -1,4 +1,10 @@
 setup.py
+PyBundle/PyBundle.py
+PyBundle/__init__.py
+PyBundle.egg-info/PKG-INFO
+PyBundle.egg-info/SOURCES.txt
+PyBundle.egg-info/dependency_links.txt
+PyBundle.egg-info/top_level.txt
 pybundle/__init__.py
 pybundle/pybundle.py
 pybundle.egg-info/PKG-INFO
