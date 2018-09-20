@@ -6,6 +6,7 @@ from inspect import stack
 
 def frozen_bundle():
     """Legacy wrapper for frozen"""
+    print('frozen_bundle() function is depreciated, replace with frozen()')
     return frozen()
 
 
