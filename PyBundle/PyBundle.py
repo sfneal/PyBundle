@@ -24,7 +24,7 @@ def frozen():
 
 def bundle_dir():
     """Handle resource management within an executable file."""
-    if frozen_bundle():
+    if frozen():
         directory = sys._MEIPASS
     else:
         directory = os.path.dirname(os.path.abspath(stack()[1][1]))
