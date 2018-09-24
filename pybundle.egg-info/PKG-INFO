@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: PyBundle
-Version: 1.0.2
+Version: 1.0.3
 Summary: Wrapper functions for adjusting paths in executable builds
 Home-page: https://github.com/mrstephenneal/PyBundle
 Author: Stephen Neal
