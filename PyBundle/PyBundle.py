@@ -7,8 +7,8 @@ from inspect import stack
 def frozen_bundle():
     """Legacy wrapper for frozen"""
     print('frozen_bundle() function is depreciated, replace with frozen()')
-    print('\tfile:', stack()[1][1])
-    print('\tline:', stack()[1][2])
+    print('\tfile:', stack()[3][1])
+    print('\tline:', stack()[3][2])
     return frozen()
 
 
