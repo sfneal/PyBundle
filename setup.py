@@ -1,8 +1,15 @@
+import os
 from setuptools import setup, find_packages
+
+
+def get_version():
+    filename = os.path.join(os.path.dirname(__file__), 'PyBundle', '_version.py')
+    with open(filename, 'rb') as fp:
+        return fp.read().decode('utf8').split('=')[1].strip(" \n'")
 
 setup(
     name='PyBundle',
-    version='1.0.5',
+    version=get_version(),
     packages=find_packages(),
     url='https://github.com/mrstephenneal/PyBundle',
     license='MIT',
