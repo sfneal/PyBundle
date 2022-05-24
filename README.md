@@ -1,3 +1,5 @@
+[![GuardRails badge](https://badges.production.guardrails.io/mrstephenneal/PyBundle.svg)](https://www.guardrails.io)
+=======
 # PyBundle
 
 Set directory paths and file names for executable bundles created with Python.
